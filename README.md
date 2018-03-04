@@ -1,5 +1,5 @@
 # my-next-metro
-node app which retrieve next metro's schedules
+Node app which retrieve next metro's schedules from RATP Network in Paris.
 
 Change dialogFlowTextRequest variable in app.js with the request you want to send using french language.
 You have to precise in your request a metro line, a station and a destination.
