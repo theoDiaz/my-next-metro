@@ -10,7 +10,7 @@ var server = http.createServer((request, response) => {
 	if(requestNb <= 1) {
 		response.writeHead(200, {'Content-Type': 'text/plain'});
 
-		// use client access token to connect to dialogFlow my-next-metro agent
+		// use client access token to connect to my-next-metro agent from dialogFlow 
 		var app = apiai("e0fcc0cd612e492ca9db0d1110e13487");
 		var dialogFlowTextRequest = 'Prochain métro ligne 9 arrêt Bonne Nouvelle direction Montreuil';
 		
