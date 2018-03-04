@@ -2,7 +2,6 @@ var http = require('http');
 var requestRatpApi = require('request');
 var apiai = require('apiai');
 
-var fs = require('fs');
 var schedules = [];
 var requestNb = 0;
 
