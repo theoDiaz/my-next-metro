@@ -1,6 +1,8 @@
 # my-next-metro
 Node app which retrieve next metro's schedules from RATP Network in Paris.
 
+This project use the webservice https://github.com/pgrimaud/horaires-ratp-api created by @pgrimaud and the following node.js SDK for dialogflow https://github.com/dialogflow/dialogflow-nodejs-client
+
 Change dialogFlowTextRequest variable in app.js with the request you want to send using french language.
 You have to precise in your request a metro line, a station and a destination.
 
